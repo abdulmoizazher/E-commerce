@@ -72,6 +72,8 @@ html, body {
   height: 90%;
   /*margin: 50px 50px 50px 50px;*/
   margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   flex-wrap: wrap;
 
   gap : 20px;
@@ -108,3 +110,10 @@ html, body {
 .navigator a:hover {
   color: #3498db;          /* Changes color when hovering */
 }
+
+.slider  {
+  position: relative;
+  top :60px;
+  width: 60%;
+  height: 800px;
+} 
