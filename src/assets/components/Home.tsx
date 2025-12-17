@@ -1,8 +1,19 @@
-
+import Card from "./Card"
 
 const Home = () => {
   return (
-    <div>
+    <div className="holder">
+      <Card></Card>
+      <Card></Card>
+
+      <Card></Card>
+      <Card></Card>
+      <Card></Card><Card></Card><Card></Card><Card></Card>
+         
+         
+         
+         
+         
       
     </div>
   )

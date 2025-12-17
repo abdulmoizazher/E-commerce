@@ -11,11 +11,11 @@ function App() {
 
 
   return (
-    <>
-      <div>
+    
+      <div  className="home">
       <BrowserRouter>
       
-        <nav>
+        <nav className='navigator'>
             <Link to = "/">Home</Link> | {" "}
             <Link to="/Contact">Contact</Link>
             <Link to = "/Cart">Cart</Link>
@@ -38,7 +38,7 @@ function App() {
       
       </div>
       
-    </>
+    
   )
 }
 
